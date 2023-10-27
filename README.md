@@ -1,2 +1,2 @@
 # twitter_analise
-a web app that fetches twiter feeds analises them and shows results
+a web app that fetches twitter feeds analyses them and shows results
