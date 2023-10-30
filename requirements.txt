@@ -5,10 +5,8 @@ seleniumbase
 webdriver-manager
 transformers
 scipy
-sys
 requests
 time
-os
 pandas
 numpy
 re
