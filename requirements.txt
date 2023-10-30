@@ -8,7 +8,6 @@ scipy
 requests
 pandas
 numpy
-re
 matplotlib
 
 
