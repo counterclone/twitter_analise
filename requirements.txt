@@ -4,4 +4,16 @@ selenium
 seleniumbase
 webdriver-manager
 transformers
+scipy
+string
+copy
+sys
+requests
+time
+os
+pandas
+numpy
+re
+matplotlib
+
 
