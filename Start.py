@@ -10,12 +10,12 @@ import matplotlib.pyplot as plt
 import copy
 import string
 import sys
-@ st.cache_resource
-def installff():
-  os.system('sbase install geckodriver')
-  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
+# @ st.cache_resource
+# def installff():
+#   os.system('sbase install geckodriver')
+#   os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
 
-installff()
+# installff()
 
 st.set_page_config(page_title="Start",page_icon="^0^")
 
