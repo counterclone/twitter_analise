@@ -77,15 +77,15 @@ class Twitterbot:
         print("login started")
         bot.get('https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoiZW4ifQ%3D%3D"%7D')
         time.sleep(3)
-        page_source = bot.page_source
-        soup = BeautifulSoup(page_source,'html.parser')
+        # page_source = bot.page_source
+        # soup = BeautifulSoup(page_source,'html.parser')
         email=bot.find_element(By.NAME,'text')
         email.send_keys(self.email)
         button=bot.find_element(By.CSS_SELECTOR,"div[class='css-18t94o4 css-1dbjc4n r-sdzlij r-1phboty r-rs99b7 r-ywje51 r-usiww2 r-2yi16 r-1qi8awa r-1ny4l3l r-ymttw5 r-o7ynqc r-6416eg r-lrvibr r-13qz1uu'] span[class='css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0']")
         button.click()
         time.sleep(3)
-        page_source=bot.page_source
-        soup = BeautifulSoup(page_source,'lxml')
+        # page_source=bot.page_source
+        # soup = BeautifulSoup(page_source,'lxml')
         password = bot.find_element(By.CSS_SELECTOR,"input[name='password']")
         password.send_keys(self.password)
         time.sleep(1)
