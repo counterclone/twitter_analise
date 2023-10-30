@@ -1,5 +1,5 @@
 import streamlit as st
-import selenium as st
+import selenium 
 import twitterbot as tb
 import pandas as pd
 import time
