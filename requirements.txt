@@ -9,5 +9,6 @@ requests
 pandas
 numpy
 matplotlib
+python==3.11.5
 
 
