@@ -3,3 +3,5 @@ streamlit
 selenium
 seleniumbase
 webdriver-manager
+transformers
+
