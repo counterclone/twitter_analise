@@ -17,7 +17,7 @@ import sys
 
 # installff()
 
-# st.set_page_config(page_title="Start",page_icon="^0^")
+st.set_page_config(page_title="Start",page_icon="^0^")
 
 
 
