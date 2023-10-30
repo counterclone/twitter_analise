@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import pandas as pd
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 
 def remove_non_ascii(input_string):
