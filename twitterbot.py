@@ -60,7 +60,7 @@ class Twitterbot:
         chrome_options.add_argument('--allow-running-insecure-content')
         
         # self.bot = webdriver.Chrome(options=chrome_options)
-        self.bot=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        self.bot=webdriver.Chrome(service=Service(ChromeDriverManager(version=76.0.3809.25).install()), options=chrome_options)
         
 
         
