@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.2
-streamlit==1.27.2
+streamlit==0.86.0
 selenium
 seleniumbase
 webdriver-manager
